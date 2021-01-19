@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ditp.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    
+    <title>Page DITP</title>
+
+    <style>
+
+        @font-face {
+        font-family: "Marianne-Regular";
+        src: url("/assets/fonts/Marianne-Regular.otf") format("truetype"),   
+        }
+
+        @font-face {
+        font-family: "Marianne-Bold";
+        src: url("/assets/fonts/Marianne-Bold.otf") format("truetype"),   
+        }
+
+        @font-face {
+        font-family: "Marianne-Light";
+        src: url("/assets/fonts/Marianne-Light.otf") format("truetype"),   
+        }
+
+        @font-face {
+        font-family: "Marianne-Medium";
+        src: url("/assets/fonts/Marianne-Medium.otf") format("truetype"),   
+        }
+
+        @font-face {
+        font-family: "Marianne-Thin";
+        src: url("/assets/fonts/Marianne-Thin.otf") format("truetype"),   
+        }
+
+        @font-face {
+        font-family: "Marianne-ExtraBold";
+        src: url("/assets/fonts/Marianne-ExtraBold.otf") format("truetype"),   
+        }
+
+        @media all and (max-width: 990px) {
+
+            .div-nohide {
+                display: none;
+            }
+            .div-hide {
+                margin-top: 0px!important;
+            }
+        }
+
+        @media all and (min-width: 990px) {
+
+            .div-hide {
+                display: none;
+            }
+        } 
+
+        @media all and (max-width: 560px) {
+
+            .flex-resp {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <section>
+            <div class="region region-content">
+                <section id="banner" class="container section logo-play">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-12">
+                            <p  style="font-family: Marianne-Bold, sans-serif; color: #627389; font-size: 2rem; margin-top: 60px">
+                                Votre formation<br>
+                                Services Publics +
+                            </p>
+                        </div>
+                        <div class="col-lg-7 col-sm-12" style="background-image: url(/assets/images/image2.png); background-size: cover; min-height: 54vh;">
+                            <div class="div-nohide row">
+                                <div class="col-6 Larger shadow" style="background-color: white; margin-top: 60px; border-left: 1px solid; position: absolute; width: 380px; height: auto; padding-left: 0;">
+                                    <div style="background-color: #016CA9;width: 40px; height: 40px;"></div>
+                                    <p style="font-family: Marianne-Bold; color: #1d1d1B; font-size: 0.7rem; line-height: 21px; margin-top: 5px; margin-left: 10px">
+                                        <strong>
+                                            Sur cette page, vous allez pouvoir accéder à une
+                                            collection complète de modules de formation
+                                            interactifs qui vous permettront de :
+                                        </strong>
+                                    </p >
+                                    <p style="font-family: Marianne-Regular; color:#016CA9; font-size: 0.7rem; line-height: 21px; margin-left: 40px; margin-right:20px">
+                                        <strong>décoder</strong> les principes, les concepts et les
+                                        mécanismes qui nourrissent chacun des
+                                        9 engagements,</p>
+                                    <p style="font-family: Marianne-Regular; color:#016CA9; font-size: 0.7rem; line-height: 21px; margin-left: 40px; margin-right:20px">
+                                        <strong>mettre en oeuvre</strong> les comportements
+                                        adaptés et les bonnes pratiques à mobiliser pour faire vivre ces engagements,</p>
+                                    <p style="font-family: Marianne-Regular; color:#016CA9; font-size: 0.7rem; line-height: 21px; margin-left: 40px; margin-right:20px; margin-bottom:40px;">
+                                        <strong>bénéficier</strong> de ressources concrètes et
+                                        inspirantes pour développer une culture
+                                        commune autour des 9 engagements et 
+                                        faciliter leur mise en œuvre.</p>
+                                </div>
+                            </div>
+                        </div>
+<!-- ENCART APPEAR/DISAPPEAR FULL SIZE RESPONSIVE -->
+                        <div class="div-hide col-12 Larger shadow" style="background-color: white; margin-top: 60px; border-left: 1px solid; width: 100%; height: auto; padding-left: 0;">
+                            <div style="background-color: #016CA9;width: 40px; height: 40px;"></div>
+                            <p style="font-family: Marianne-Bold; color: #1d1d1B; font-size: 0.7rem; line-height: 21px; margin-top: 5px; margin-left: 10px">
+                                <strong>
+                                    Sur cette page, vous allez pouvoir accéder à une
+                                    collection complète de modules de formation
+                                    interactifs qui vous permettront de :
+                                </strong>
+                            </p >
+                            <p style="font-family: Marianne-Regular; color:#016CA9; font-size: 0.7rem; line-height: 21px; margin-left: 40px; margin-right:20px">
+                                <strong>décoder</strong> les principes, les concepts et les
+                                mécanismes qui nourrissent chacun des
+                                9 engagements,</p>
+                            <p style="font-family: Marianne-Regular; color:#016CA9; font-size: 0.7rem; line-height: 21px; margin-left: 40px; margin-right:20px">
+                                <strong>mettre en oeuvre</strong> les comportements
+                                adaptés et les bonnes pratiques à mobiliser pour faire vivre ces engagements,</p>
+                            <p style="font-family: Marianne-Regular; color:#016CA9; font-size: 0.7rem; line-height: 21px; margin-left: 40px; margin-right:20px; margin-bottom:40px;">
+                                <strong>bénéficier</strong> de ressources concrètes et
+                                inspirantes pour développer une culture
+                                commune autour des 9 engagements et 
+                                faciliter leur mise en œuvre.</p>
+                        </div>
+<!-- FIN APPEAR/DISAPPEAR FULL SIZE RESPONSIVE-->
+                    </div>
+                </section>
+                <section class="container bg-blue light home-block">
+                    <div class="row" style="background-color: #016CA9;">
+                        <div class="col-12 col-lg-12 section">
+                            <div class="row mt-4" style="margin-left: 20px">
+                                <p style="font-family: Marianne-Regular; font-size: 1rem; color:white; padding-left: 0px;">LISTE DES MODULES</p>
+                                <hr style="background-color: rgb(255, 255, 255); width: 110px; height: 5px;">
+                            </div>
+                            <div class="col-12 col-lg-12">
+                                <div class="row" style="padding-right: 40px; margin-left: 40px">
+                                    <div style="padding:0px">
+                                        <p style="font-size: 2rem;color: white; padding-left: 0px;">
+                                            <strong>Découvrez nos modules de formation 100% </br>Services Publics+</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                    <div style="background-color: white; display: flex; justify-content: space-between; align-items: center; min-height: 140px; margin: 40px 40px 0 40px;">
+                                        <div class="flex-resp" style="display: flex; align-content: center;">
+                                            <div style="text-align: center; margin: 14px;">
+                                                <img src="/assets/images/logo1.png" >
+                                            </div>
+                                            <div style="margin-left: 20px">
+                                                <p style="font-family: Marianne-Bold; font-size: 1.5rem; color: #627389;text-transform: uppercase;">
+                                                    <strong>À LA DéCOUVERTE DE SERVICES PUBLICS+</strong>
+                                                </p>
+                                                <p style="font-family: Marianne-Regular; font-size: 1rem">
+                                                    Quels sont les principes clés qui organisent la démarche Services Publics+ ?
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a href="#" style="background-color: #627389; height: 100%; height: auto; width: 100px;">
+                                            <div> 
+                                                <img src="/assets/images/logo3.png">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div style="background-color: white; display: flex; justify-content: space-between; align-items: center; min-height: 140px; margin: 40px 40px 60px 40px ">
+                                        <div class="flex-resp" style="display: flex; align-content: center;">
+                                            <div style="text-align: center; margin: 14px;">
+                                                <img src="/assets/images/logo2.png">
+                                            </div>
+                                            <div style="margin-left: 20px">
+                                                <p style="font-family: Marianne-Bold; font-size: 1.5rem; color: #627389;text-transform: uppercase"><strong>BIENVEILLANCE ET DROIT à L'ERREUR</strong></p>
+                                                <p style="font-family: Marianne-Regular; font-size: 1rem; color: #1d1d1b">Quels sont les principes clés qui organisent la démarche Services Publics+ ?</p>
+                                            </div>
+                                        </div>
+                                        <a href="#" style="background-color: #627389; height: auto; width: 100px;">
+                                            <div > 
+                                                <img src="/assets/images/logo3.png" >
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="row flex-wrap" style="background-color: #586D83;">
+                        <div class="col-sm-12 col-lg-5 " style="background-image: url(/assets/images/image1.jpeg); background-size: cover ;min-height: 300px;">
+                        </div>
+                        <div class="col-sm-12 col-lg-7 " >
+                            <div class="row">
+                                <div class="row mt-4" style="margin-left: 20px">
+                                    <p style="font-family: Marianne-Regular; font-size: 1rem; color:white; padding-left: 0px; text-transform: uppercase">TRèS PROCHAINEMENT</p>
+                                    <hr style="background-color: rgb(255, 255, 255); width: 110px; height: 5px;">
+                                </div>
+                                <div class=" col-11 col-lg-11" style="min-height: 300px; margin-left: 20px; margin-top: 20px;">
+                                    <h1 style="font-family: Marianne-Bold; color: white; font-size: 2rem; line-height: 42px;">
+                                        Retrouvez très prochainement de<br>nouveaux modules Services Publics+
+                                    </h1>
+                                    <p style="font-family: Marianne-Regular; color: white; line-height: 28px; font-size: 1rem; margin-top: 20px;">Relation Omnicale, personnalisation de la relation, amélioration continue, responsabilité
+                                        environnementale : la collection de modules de formation Services Publics+ va s'étoffer pour vous aider à incarner
+                                        au quotidien les 9 engagements Services Publics+.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
